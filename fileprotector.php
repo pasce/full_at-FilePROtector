@@ -38,12 +38,21 @@ class FileProtector
         //flush_rewrite_rules();
     }
 
-    private function uninstall()
-    {
+    private function uninstall(){}
 
+    protected function register_admin_scripts() {
+        //add_action('admin_enqueue_scripts', array($this, 'enqueue'));
+    }
+
+    protected function register_frontend_scripts() {
+        //add_action('wp_enqueue_scripts', array($this, 'enqueue'));
+    }
+
+    private function enqueue() {
+            //wp_enqueue_scripts(...);
+            //wp_enqueue_styles(...);
     }
 }
-
 
 if (class_exists('FileProtector')) {
     $fileprotector = new FileProtector();
