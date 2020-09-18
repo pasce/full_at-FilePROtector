@@ -1,5 +1,7 @@
 <?php
-
+/*
+ * @package FilePROtectorPlugin
+ */
 /*
 Plugin Name: File PROtector WP PLUGIN
 Plugin URI: https://www.full.at/wp-plugins/fileprotector
@@ -8,4 +10,5 @@ Version: 1.0
 Author: Pascal Werkl
 Author URI: https://www.full.at/pasce
 License: A "Slug" license name e.g. GPL2
+Text Domain: fileprotector
 */
