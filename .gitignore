@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+# Batch files
+*.bat
+
 # Object files
 *.o
 *.ko
